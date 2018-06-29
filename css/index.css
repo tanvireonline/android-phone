@@ -1,0 +1,282 @@
+body{
+	width: 100%;
+	height: auto;
+	
+}
+
+*{
+	margin: 0px auto;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+}
+
+a{
+	cursor: pointer;
+}
+	
+.phone{
+
+	height: 500px;
+	width: 250px;
+	overflow: hidden;
+	margin-top: 3%;
+	border-radius: 10px;
+	overflow: hidden;
+	border:5px solid black;
+	background:url(../img/back4.jpg);
+	
+}
+
+
+/*-----------#nav -------*/
+
+.nav{
+
+	width: 100%;
+	height: 50px;
+	position: relative;
+	margin-top: 0px;
+	background-color: black;
+}
+
+.nav ul{
+	width: 100%;
+	height: 45px;
+}
+
+.nav ul li a{
+
+	float: left;
+	padding: 15px 40px ;
+	color: #424344;
+}
+
+/*-----------#nav2 -------*/
+
+.nav-2{
+
+	width: 100%;
+	height:20px;
+	position: relative;
+	margin-top: 0px;
+	background-color: none;
+	
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#45484d+0,000000+100&0.45+1,0+100 */
+background: -moz-linear-gradient(top,  rgba(69,72,77,0.45) 0%, rgba(68,71,76,0.45) 1%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(69,72,77,0.45) 0%,rgba(68,71,76,0.45) 1%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(69,72,77,0.45) 0%,rgba(68,71,76,0.45) 1%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7345484d', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+
+}
+
+.nav-2 ul{
+	width: 100%;
+	height:20px;
+	float: left;
+
+}
+
+.nav-2 ul li a{
+
+	float: right;
+	padding:2px 2px ;
+	color: #fff;
+	font-size: 10px;
+	font-family: arial;
+	
+}
+
+.nav-2 ul li a:hover{
+	color: #09DFEB;
+}
+
+.clockStyle{
+
+	font-size: 12px;
+}
+
+
+
+
+/*-----------#.main-conten -------*/
+
+.main-conten{
+
+	height:347px;
+	width: 100%;
+	background-color:none;
+}
+
+.main-conten ul{
+	width: 100%;
+	height: 45px;
+}
+
+.main-conten ul li a{
+
+	float: left;
+	padding: 15px 35px ;
+	color: #ADAFB0;
+}
+
+.main-conten ul li a:hover{
+
+	color: #09DFEB;
+}
+
+
+/*-----------#.main-conten 2 -------*/
+
+.main-conten2{
+
+	height:400px;
+	width: 100%;
+	background-color: black;
+	position: relative;
+	display: none;
+	overflow: hidden;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#45484d+0,000000+100&0.03+0,0.26+100 */
+background: -moz-linear-gradient(top,  rgba(69,72,77,0.03) 0%, rgba(0,0,0,0.26) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(69,72,77,0.03) 0%,rgba(0,0,0,0.26) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(69,72,77,0.03) 0%,rgba(0,0,0,0.26) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0845484d', endColorstr='#42000000',GradientType=0 ); /* IE6-9 */
+
+}
+
+.main-conten2 img{
+
+	height:30px;
+	width: 30px;
+}
+
+.main-conten2 img:hover{
+
+	transition: transform 100ms ease-in-out ;
+	transform: translate(0px,0px) rotate(10deg) ;
+}
+
+.main-conten2 ul{
+	width: 100%;
+	
+}
+
+.main-conten2 ul li a{
+
+	float: left;
+	width:60px;
+	padding:20px 4px ;
+	color: #fff;
+	font-size:10px;
+	font-family: arial;
+	text-align: center;
+	
+}
+
+.main-conten2 ul li a:hover{
+
+	color: black;
+	opacity: 0.7;
+
+
+
+
+
+}
+
+/*-----------#manu -------*/
+
+#manu{
+
+	widows: 100%;
+	height:35px;
+	background-color: none;
+	position: relative;
+	margin-top:0px;
+	
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000202+100&0+0,0.47+100 */
+background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,2,2,0.47) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,2,2,0.47) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,2,2,0.47) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#78000202',GradientType=0 ); /* IE6-9 */
+
+}
+
+
+#manu ul{
+	width: 100%;
+	height:40px;
+}
+
+#manu ul li a{
+
+	float: left;
+	padding:0px 12px ;
+	color: #09DFEB;
+	font-size: 20px;
+	text-align: center;
+	opacity: 0.9;
+}
+
+#manu ul li a:hover{
+
+	color: #fff;
+	opacity: 0.5;
+}
+
+
+/*-----------#footer -------*/
+
+
+
+.footer{
+
+	width: 100%;
+	height: 50px;
+	background-color: black;
+	margin-top:1px;
+	margin-bottom:10px;
+	position: relative;
+	border-bottom-right-radius:4px;
+	border-bottom-left-radius:4px;
+}
+
+.footer ul{
+	width: 100%;
+	height: 45px;
+}
+
+.footer ul li a{
+
+	float: left;
+	padding: 15px 38px ;
+	color: #ADAFB0;
+}
+
+.footer ul li a:hover{
+
+	opacity: 0.5;
+}
+
+
+#sp{
+
+	width:75px;
+	padding: 0;
+	height:8px;
+	padding-left:5px;
+	background-color: #293333;
+	border-bottom-right-radius:3px;
+	border-bottom-left-radius:3px;
+
+}
+
+p{
+	font-size: 13px;
+	text-align: center;
+	margin-top:2%;
+	font-family: arial;
+}
+
+
+
